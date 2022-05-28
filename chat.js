@@ -1,4 +1,4 @@
-const socket = io('https://chatinternet.netlify.app');
+const socket = io('https://chatinternet.netlify.app:3000');
 
 let user = null;
 
