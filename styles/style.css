@@ -52,4 +52,5 @@ html, body {
     border-radius: 15px;
     padding: 20px;
     background-color: #ffffff;
+    overflow: scroll;
   }
