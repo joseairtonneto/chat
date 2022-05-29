@@ -1,4 +1,4 @@
-const socket = io('https://internet-web-chat.herokuapp.com:' + process.env.PORT);
+const socket = io('https://internet-web-chat.herokuapp.com/');
 
 let user = null;
 
