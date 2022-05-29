@@ -8,7 +8,7 @@ const socketIo = require('socket.io');
 app.use(cors());
 app.use('/', express.static(path.join(__dirname)))
 
-const server = app.listen(3333, ()=>{
+const server = app.listen(5000, ()=>{
     console.log("Running");
 })
 
