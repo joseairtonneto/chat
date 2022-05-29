@@ -4,11 +4,12 @@ const path = require('path');
 
 const app = express();
 const socketIo = require('socket.io');
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use('/', express.static(path.join(__dirname)))
 
-const server = app.listen(5000, ()=>{
+const server = app.listen(port, ()=>{
     console.log("Running");
 })
 
