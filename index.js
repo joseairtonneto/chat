@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 const socketIo = require('socket.io');
-const port = process.env.PORT || 8080;
+const port = process.env.PORT;
 
 app.use(cors());
 app.use('/', express.static(path.join(__dirname)))
